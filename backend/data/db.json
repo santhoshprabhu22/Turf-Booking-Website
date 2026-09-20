@@ -1,0 +1,546 @@
+{
+  "users": [
+    {
+      "id": "wwpiam744",
+      "name": "vasanth",
+      "mobile": "8072484096",
+      "email": "santhoshprabhu2211@gmail.com",
+      "isAdmin": false,
+      "createdAt": "2026-07-21T04:53:49.166Z",
+      "updatedAt": "2026-08-03T08:34:29.254Z"
+    },
+    {
+      "id": "jci3x9eqo",
+      "name": "santhosh",
+      "mobile": "9843256346",
+      "email": "santhoshprabhu2211@gmail.com",
+      "isAdmin": false,
+      "createdAt": "2026-08-12T14:39:17.597Z"
+    },
+    {
+      "id": "xd1spg0dt",
+      "name": "santhosh",
+      "mobile": "8015520586",
+      "email": "santhoshprabhu2211@gmail.com",
+      "passwordHash": "$2b$10$nHWdcvVx.8aZf62eKJ2t0eHQaRApa1k1NsP625cMNprPkFZsPOSdS",
+      "isAdmin": false,
+      "createdAt": "2026-08-19T15:12:29.984Z"
+    },
+    {
+      "id": "wxwuq0jlp",
+      "name": "kani6379568479",
+      "mobile": "",
+      "email": "kani6379568479@gmail.com",
+      "isAdmin": false,
+      "createdAt": "2026-09-20T13:54:25.500Z"
+    }
+  ],
+  "otps": [
+    {
+      "id": "jq6tpcrpz",
+      "mobile": "8072484096",
+      "hash": "46d84e98bf044f8b90f843b07854f223aecf8a66686882e3d88241751507371e",
+      "expiresAt": 1784609862202,
+      "verified": true,
+      "createdAt": "2026-07-21T04:52:42.205Z",
+      "updatedAt": "2026-07-21T04:53:49.164Z"
+    },
+    {
+      "id": "dk0kp81tx",
+      "mobile": "8072484096",
+      "hash": "f85f3ec1b6b05b83e7a35919ab684998afb0b10ac92919298b9de07d0044d809",
+      "expiresAt": 1785744994784,
+      "verified": true,
+      "createdAt": "2026-08-03T08:11:34.786Z",
+      "updatedAt": "2026-08-03T08:12:51.743Z"
+    },
+    {
+      "id": "pjhogejkx",
+      "mobile": "8072484096",
+      "hash": "0d78a5c8407f6419fdac54ae74c64bfedb11da585f7f8a78edee076f9ebdf910",
+      "expiresAt": 1785745457559,
+      "verified": true,
+      "createdAt": "2026-08-03T08:19:17.560Z",
+      "updatedAt": "2026-08-03T08:19:45.035Z"
+    },
+    {
+      "id": "eddagffe2",
+      "mobile": "8072484096",
+      "hash": "721637ba1318519e6c73653ca0d8e055c73f293534abf94258ccbf409220e473",
+      "expiresAt": 1785746337734,
+      "verified": true,
+      "createdAt": "2026-08-03T08:33:57.736Z",
+      "updatedAt": "2026-08-03T08:34:29.252Z"
+    },
+    {
+      "id": "g9xcub54g",
+      "mobile": "9843256346",
+      "hash": "5fd16786a765a0ca4a604c28f8eb40585260b4e5c4a7d316b8b453f212fbfc99",
+      "expiresAt": 1786545808443,
+      "verified": true,
+      "createdAt": "2026-08-12T14:38:28.446Z",
+      "updatedAt": "2026-08-12T14:39:17.595Z"
+    },
+    {
+      "id": "3tfe8faaj",
+      "mobile": "8015520586",
+      "hash": "2884453415247006c20a1b3647a3f220790e713498a8f054b7496d7dc751bb12",
+      "expiresAt": 1787152924623,
+      "verified": true,
+      "createdAt": "2026-08-19T15:12:04.624Z",
+      "updatedAt": "2026-08-19T15:12:29.862Z"
+    },
+    {
+      "id": "hip252ivr",
+      "mobile": "1234567890",
+      "hash": "a101b2d597e894b07611bec6d1f6b131031f0f60604f7be5ffcb219500c6ebd9",
+      "expiresAt": 1787153477097,
+      "verified": false,
+      "createdAt": "2026-08-19T15:21:17.101Z"
+    },
+    {
+      "id": "kzseistw4",
+      "email": "santhoshprabhu2211@gmail.com",
+      "hash": "bc6a3d5d8842cb735115020d2ab9bac4beac13ca6159167a388de8a6c62dd8cd",
+      "expiresAt": 1789834311197,
+      "verified": true,
+      "createdAt": "2026-09-19T16:01:51.203Z",
+      "updatedAt": "2026-09-19T16:02:46.590Z"
+    },
+    {
+      "id": "4567io2i5",
+      "email": "kani6379568479@gmail.com",
+      "hash": "cacdeae855a8af2b249a1a57c6c763e6685631c3fc00f0964db382abe5cdf176",
+      "expiresAt": 1789913042269,
+      "verified": true,
+      "createdAt": "2026-09-20T13:54:02.273Z",
+      "updatedAt": "2026-09-20T13:54:25.498Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "dvofujh11",
+      "userId": "wwpiam744",
+      "userName": "vasanth",
+      "userMobile": "8072484096",
+      "userEmail": "santhoshprabhu2211@gmail.com",
+      "slotDate": "2026-07-21",
+      "slotTime": "12:15 - 13:15",
+      "amount": 900,
+      "status": "cancelled",
+      "utrNumber": "",
+      "screenshotUrl": "/uploads/payment-1784610305002-184675249.png",
+      "refundProcessed": false,
+      "createdAt": "2026-07-21T05:05:05.035Z",
+      "refundEligibility": "none",
+      "updatedAt": "2026-07-21T05:10:29.239Z"
+    },
+    {
+      "id": "cyoc011d9",
+      "userId": "wwpiam744",
+      "userName": "vasanth",
+      "userMobile": "8072484096",
+      "userEmail": "santhoshprabhu2211@gmail.com",
+      "slotDate": "2026-07-21",
+      "slotTime": "12:15 - 13:15",
+      "amount": 900,
+      "status": "pending_payment",
+      "utrNumber": "",
+      "screenshotUrl": "/uploads/payment-1784611327345-131594940.png",
+      "refundProcessed": false,
+      "createdAt": "2026-07-21T05:22:07.353Z"
+    },
+    {
+      "id": "rs7rtxw9u",
+      "userId": "wwpiam744",
+      "userName": "vasanth",
+      "userMobile": "8072484096",
+      "userEmail": "santhoshprabhu2211@gmail.com",
+      "slotDate": "2026-07-21",
+      "slotTime": "13:30 - 14:30",
+      "amount": 900,
+      "status": "cancelled",
+      "utrNumber": "",
+      "screenshotUrl": "/uploads/payment-1784611418615-431900525.png",
+      "refundProcessed": true,
+      "createdAt": "2026-07-21T05:23:38.630Z",
+      "updatedAt": "2026-09-20T13:56:49.395Z",
+      "refundEligibility": "50_percent"
+    },
+    {
+      "id": "cbvqbh9dl",
+      "userId": "wwpiam744",
+      "userName": "vasanth",
+      "userMobile": "8072484096",
+      "userEmail": "santhoshprabhu2211@gmail.com",
+      "slotDate": "2026-07-21",
+      "slotTime": "17:15 - 18:15",
+      "amount": 900,
+      "status": "cancelled",
+      "utrNumber": "",
+      "screenshotUrl": "/uploads/payment-1784611502243-662873482.png",
+      "refundProcessed": false,
+      "createdAt": "2026-07-21T05:25:02.253Z",
+      "refundEligibility": "none",
+      "updatedAt": "2026-08-03T14:07:28.156Z"
+    },
+    {
+      "id": "2bz70eywo",
+      "userId": "wwpiam744",
+      "userName": "vasanth",
+      "userMobile": "8072484096",
+      "userEmail": "santhoshprabhu2211@gmail.com",
+      "slotDate": "2026-08-03",
+      "slotTime": "13:30 - 14:30",
+      "amount": 900,
+      "status": "cancelled",
+      "utrNumber": "",
+      "screenshotUrl": "/uploads/payment-1785745360381-932358811.png",
+      "refundProcessed": true,
+      "createdAt": "2026-08-03T08:22:40.417Z",
+      "updatedAt": "2026-08-03T14:07:15.422Z",
+      "refundEligibility": "50_percent"
+    },
+    {
+      "id": "6ibx56561",
+      "userId": "wwpiam744",
+      "userName": "vasanth",
+      "userMobile": "8072484096",
+      "userEmail": "santhoshprabhu2211@gmail.com",
+      "slotDate": "2026-08-03",
+      "slotTime": "12:15 - 13:15",
+      "amount": 900,
+      "status": "cancelled",
+      "utrNumber": "",
+      "screenshotUrl": "/uploads/payment-1785746096310-446194095.png",
+      "refundProcessed": true,
+      "createdAt": "2026-08-03T08:34:56.344Z",
+      "updatedAt": "2026-08-03T14:07:17.327Z",
+      "refundEligibility": "50_percent"
+    },
+    {
+      "id": "0v8kv5bbm",
+      "userId": "wwpiam744",
+      "userName": "vasanth",
+      "userMobile": "8072484096",
+      "userEmail": "santhoshprabhu2211@gmail.com",
+      "slotDate": "2026-08-03",
+      "slotTime": "06:00 - 07:00",
+      "amount": 900,
+      "status": "cancelled",
+      "utrNumber": "",
+      "screenshotUrl": "/uploads/payment-1785748544740-970453158.png",
+      "refundProcessed": true,
+      "createdAt": "2026-08-03T09:15:44.747Z",
+      "updatedAt": "2026-08-03T14:07:19.109Z",
+      "refundEligibility": "50_percent"
+    },
+    {
+      "id": "dmhmnyrsm",
+      "userId": "wwpiam744",
+      "userName": "vasanth",
+      "userMobile": "8072484096",
+      "userEmail": "santhoshprabhu2211@gmail.com",
+      "slotDate": "2026-08-03",
+      "slotTime": "07:15 - 08:15",
+      "amount": 900,
+      "status": "cancelled",
+      "utrNumber": "",
+      "screenshotUrl": "/uploads/payment-1785748780605-501030610.png",
+      "refundProcessed": true,
+      "createdAt": "2026-08-03T09:19:40.611Z",
+      "updatedAt": "2026-08-03T14:07:23.057Z",
+      "refundEligibility": "50_percent"
+    },
+    {
+      "id": "pkdib8rvq",
+      "userId": "jci3x9eqo",
+      "userName": "santhosh",
+      "userMobile": "9843256346",
+      "userEmail": "santhoshprabhu2211@gmail.com",
+      "slotDate": "2026-08-12",
+      "slotTime": "07:15 - 08:15, 12:15 - 13:15, 13:30 - 14:30",
+      "amount": 2700,
+      "status": "cancelled",
+      "utrNumber": "",
+      "screenshotUrl": "/uploads/payment-1786545600279-927775931.png",
+      "refundProcessed": false,
+      "createdAt": "2026-08-12T14:40:00.315Z",
+      "refundEligibility": "none",
+      "updatedAt": "2026-08-12T14:47:08.355Z"
+    },
+    {
+      "id": "jqeorb3ht",
+      "userId": "wxwuq0jlp",
+      "userName": "kani6379568479",
+      "userMobile": "",
+      "userEmail": "kani6379568479@gmail.com",
+      "slotDate": "2026-09-20",
+      "slotTime": "07:15 - 08:15, 08:30 - 09:30",
+      "amount": 1800,
+      "status": "confirmed",
+      "utrNumber": "",
+      "screenshotUrl": "/uploads/payment-1789912503882-375488872.png",
+      "refundProcessed": false,
+      "createdAt": "2026-09-20T13:55:03.924Z",
+      "updatedAt": "2026-09-20T13:56:37.364Z"
+    }
+  ],
+  "holds": [],
+  "notifications": [
+    {
+      "id": "bw4x1ew5w",
+      "type": "new_booking",
+      "title": "New Slot Booking Request",
+      "message": "vasanth (8072484096) has booked slot 12:15 - 13:15 on 2026-07-21. Payment review pending.",
+      "status": "read",
+      "createdAt": "2026-07-21T05:05:05.039Z",
+      "updatedAt": "2026-08-03T14:07:55.140Z"
+    },
+    {
+      "id": "8qrzq4dtw",
+      "type": "cancelled_booking",
+      "title": "Booking Cancelled by Customer",
+      "message": "vasanth cancelled slot 12:15 - 13:15 on 2026-07-21. Refund: None",
+      "status": "read",
+      "createdAt": "2026-07-21T05:10:29.244Z",
+      "updatedAt": "2026-08-03T14:07:55.142Z"
+    },
+    {
+      "id": "146yg3ncf",
+      "type": "new_booking",
+      "title": "New Slot Booking Request",
+      "message": "vasanth (8072484096) has booked slot 12:15 - 13:15 on 2026-07-21. Payment review pending.",
+      "status": "read",
+      "createdAt": "2026-07-21T05:22:07.359Z",
+      "updatedAt": "2026-08-03T14:07:55.145Z"
+    },
+    {
+      "id": "yqpwhffyb",
+      "type": "new_booking",
+      "title": "New Slot Booking Request",
+      "message": "vasanth (8072484096) has booked slot 13:30 - 14:30 on 2026-07-21. Payment review pending.",
+      "status": "read",
+      "createdAt": "2026-07-21T05:23:38.638Z",
+      "updatedAt": "2026-08-03T14:07:55.147Z"
+    },
+    {
+      "id": "gv7qagu6z",
+      "type": "new_booking",
+      "title": "New Slot Booking Request",
+      "message": "vasanth (8072484096) has booked slot 17:15 - 18:15 on 2026-07-21. Payment review pending.",
+      "status": "read",
+      "createdAt": "2026-07-21T05:25:02.262Z",
+      "updatedAt": "2026-08-03T14:07:55.149Z"
+    },
+    {
+      "id": "ja5ik19kw",
+      "type": "new_booking",
+      "title": "New Slot Booking Request",
+      "message": "vasanth (8072484096) has booked slot 13:30 - 14:30 on 2026-08-03. Payment review pending.",
+      "status": "read",
+      "createdAt": "2026-08-03T08:22:40.423Z",
+      "updatedAt": "2026-08-03T14:07:55.152Z"
+    },
+    {
+      "id": "me4sffqsg",
+      "type": "admin_action",
+      "title": "Booking Action Logged",
+      "message": "Admin approved payment for slot 13:30 - 14:30 on 2026-08-03.",
+      "status": "read",
+      "createdAt": "2026-08-03T08:32:53.093Z",
+      "updatedAt": "2026-08-03T14:07:55.153Z"
+    },
+    {
+      "id": "c151523j3",
+      "type": "new_booking",
+      "title": "New Slot Booking Request",
+      "message": "vasanth (8072484096) has booked slot 12:15 - 13:15 on 2026-08-03. Payment review pending.",
+      "status": "read",
+      "createdAt": "2026-08-03T08:34:56.350Z",
+      "updatedAt": "2026-08-03T14:07:55.155Z"
+    },
+    {
+      "id": "wf72ui66u",
+      "type": "admin_action",
+      "title": "Booking Action Logged",
+      "message": "Admin approved payment for slot 12:15 - 13:15 on 2026-08-03.",
+      "status": "read",
+      "createdAt": "2026-08-03T08:35:22.215Z",
+      "updatedAt": "2026-08-03T14:07:55.157Z"
+    },
+    {
+      "id": "7icy3i6x7",
+      "type": "admin_action",
+      "title": "Booking Action Logged",
+      "message": "Admin manually cancelled booking for vasanth.",
+      "status": "read",
+      "createdAt": "2026-08-03T08:35:39.922Z",
+      "updatedAt": "2026-08-03T14:07:55.158Z"
+    },
+    {
+      "id": "4wajoifrv",
+      "type": "admin_action",
+      "title": "Booking Action Logged",
+      "message": "Admin manually cancelled booking for vasanth.",
+      "status": "read",
+      "createdAt": "2026-08-03T08:35:43.278Z",
+      "updatedAt": "2026-08-03T14:07:55.160Z"
+    },
+    {
+      "id": "uq3xnqy3c",
+      "type": "new_booking",
+      "title": "New Slot Booking Request",
+      "message": "vasanth (8072484096) has booked slot 06:00 - 07:00 on 2026-08-03. Payment review pending.",
+      "status": "read",
+      "createdAt": "2026-08-03T09:15:44.752Z",
+      "updatedAt": "2026-08-03T14:07:55.162Z"
+    },
+    {
+      "id": "i1186m4fa",
+      "type": "admin_action",
+      "title": "Booking Action Logged",
+      "message": "Admin approved payment for slot 06:00 - 07:00 on 2026-08-03.",
+      "status": "read",
+      "createdAt": "2026-08-03T09:16:10.444Z",
+      "updatedAt": "2026-08-03T14:07:55.164Z"
+    },
+    {
+      "id": "cddik79dy",
+      "type": "new_booking",
+      "title": "New Slot Booking Request",
+      "message": "vasanth (8072484096) has booked slot 07:15 - 08:15 on 2026-08-03. Payment review pending.",
+      "status": "read",
+      "createdAt": "2026-08-03T09:19:40.615Z",
+      "updatedAt": "2026-08-03T14:07:55.166Z"
+    },
+    {
+      "id": "pwafgs9ci",
+      "type": "admin_action",
+      "title": "Booking Action Logged",
+      "message": "Admin approved payment for slot 07:15 - 08:15 on 2026-08-03.",
+      "status": "read",
+      "createdAt": "2026-08-03T09:19:47.516Z",
+      "updatedAt": "2026-08-03T14:07:55.169Z"
+    },
+    {
+      "id": "yw04cr8o8",
+      "type": "admin_action",
+      "title": "Booking Action Logged",
+      "message": "Admin manually cancelled booking for vasanth.",
+      "status": "read",
+      "createdAt": "2026-08-03T14:07:06.800Z",
+      "updatedAt": "2026-08-03T14:07:55.171Z"
+    },
+    {
+      "id": "5kmq5dmnt",
+      "type": "admin_action",
+      "title": "Booking Action Logged",
+      "message": "Admin manually cancelled booking for vasanth.",
+      "status": "read",
+      "createdAt": "2026-08-03T14:07:08.911Z",
+      "updatedAt": "2026-08-03T14:07:55.173Z"
+    },
+    {
+      "id": "sm9az24eu",
+      "type": "admin_action",
+      "title": "Booking Action Logged",
+      "message": "Admin processed 50% cashback refund of ₹450.00 for vasanth.",
+      "status": "read",
+      "createdAt": "2026-08-03T14:07:15.425Z",
+      "updatedAt": "2026-08-03T14:07:55.176Z"
+    },
+    {
+      "id": "a38q3gcza",
+      "type": "admin_action",
+      "title": "Booking Action Logged",
+      "message": "Admin processed 50% cashback refund of ₹450.00 for vasanth.",
+      "status": "read",
+      "createdAt": "2026-08-03T14:07:17.330Z",
+      "updatedAt": "2026-08-03T14:07:55.178Z"
+    },
+    {
+      "id": "y986jjzxl",
+      "type": "admin_action",
+      "title": "Booking Action Logged",
+      "message": "Admin processed 50% cashback refund of ₹450.00 for vasanth.",
+      "status": "read",
+      "createdAt": "2026-08-03T14:07:19.112Z",
+      "updatedAt": "2026-08-03T14:07:55.180Z"
+    },
+    {
+      "id": "3z4jcc69e",
+      "type": "admin_action",
+      "title": "Booking Action Logged",
+      "message": "Admin processed 50% cashback refund of ₹450.00 for vasanth.",
+      "status": "read",
+      "createdAt": "2026-08-03T14:07:23.059Z",
+      "updatedAt": "2026-08-03T14:07:55.182Z"
+    },
+    {
+      "id": "vymcpdsny",
+      "type": "admin_action",
+      "title": "Booking Action Logged",
+      "message": "Admin rejected payment screenshot for slot 17:15 - 18:15 on 2026-07-21.",
+      "status": "read",
+      "createdAt": "2026-08-03T14:07:28.158Z",
+      "updatedAt": "2026-08-03T14:07:55.184Z"
+    },
+    {
+      "id": "33atjvajl",
+      "type": "new_booking",
+      "title": "New Slot Booking Request",
+      "message": "santhosh (9843256346) has booked slot 07:15 - 08:15, 12:15 - 13:15, 13:30 - 14:30 on 2026-08-12. Payment review pending.",
+      "status": "unread",
+      "createdAt": "2026-08-12T14:40:00.325Z"
+    },
+    {
+      "id": "jnsgfjl1s",
+      "type": "admin_action",
+      "title": "Booking Action Logged",
+      "message": "Admin rejected payment screenshot for slot 07:15 - 08:15, 12:15 - 13:15, 13:30 - 14:30 on 2026-08-12.",
+      "status": "read",
+      "createdAt": "2026-08-12T14:47:08.358Z"
+    },
+    {
+      "id": "iozs5lbyb",
+      "type": "admin_action",
+      "title": "Booking Action Logged",
+      "message": "Admin approved payment for slot 13:30 - 14:30 on 2026-07-21.",
+      "status": "read",
+      "createdAt": "2026-08-12T14:47:34.363Z"
+    },
+    {
+      "id": "kvdlty19o",
+      "type": "admin_action",
+      "title": "Booking Action Logged",
+      "message": "Admin manually cancelled booking for vasanth.",
+      "status": "read",
+      "createdAt": "2026-08-12T14:47:46.212Z"
+    },
+    {
+      "id": "upqsqncys",
+      "type": "new_booking",
+      "title": "New Slot Booking Request",
+      "message": "kani6379568479 () has booked slot 07:15 - 08:15, 08:30 - 09:30 on 2026-09-20. Payment review pending.",
+      "status": "unread",
+      "createdAt": "2026-09-20T13:55:03.927Z"
+    },
+    {
+      "id": "3rxz686yj",
+      "type": "admin_action",
+      "title": "Booking Action Logged",
+      "message": "Admin approved payment for slot 07:15 - 08:15, 08:30 - 09:30 on 2026-09-20.",
+      "status": "read",
+      "createdAt": "2026-09-20T13:56:37.367Z"
+    },
+    {
+      "id": "iz1v3a42o",
+      "type": "admin_action",
+      "title": "Booking Action Logged",
+      "message": "Admin processed 50% cashback refund of ₹450.00 for vasanth.",
+      "status": "read",
+      "createdAt": "2026-09-20T13:56:49.397Z"
+    }
+  ]
+}

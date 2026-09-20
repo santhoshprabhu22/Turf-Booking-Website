@@ -1,0 +1,27 @@
+{
+  "name": "santhosh-turf",
+  "version": "1.0.0",
+  "description": "Santhosh Turf Booking Web Application",
+  "main": "backend/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm.cmd run dev --prefix frontend",
+    "dev": "concurrently \"npm.cmd run server\" \"npm.cmd run client\"",
+    "build": "npm.cmd run build --prefix frontend",
+    "install-all": "npm.cmd install && npm.cmd install --prefix frontend"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^9.0.5"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.4"
+  }
+}

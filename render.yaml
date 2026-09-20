@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: santhosh-turf
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: node backend/server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: ADMIN_USERNAME
+        value: admin
+      - key: ADMIN_PASSWORD
+        value: turfadmin123
+      - key: FAST2SMS_API_KEY
+        sync: false   # Add your real key in Render dashboard
+      - key: EMAIL_FROM
+        sync: false
+      - key: EMAIL_APP_PASSWORD
+        sync: false
